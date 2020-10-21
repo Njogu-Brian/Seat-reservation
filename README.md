@@ -1,13 +1,12 @@
 ## SEAT RESERVATION
 
-[Check it out]()
 [Check it out](https://github.com/Njogu-Brian/Seat-reservation.git)
 #### Authors
->Edu nush
->Brian Njongu
->Ariso Okanga
->Joseph Ndegwa
->victor Lominyo
+Edu nush
+Brian Njongu
+Ariso Okanga
+Joseph Ndegwa
+victor Lominyo
 
 ### Setup.
 To get a local copy of the site:
