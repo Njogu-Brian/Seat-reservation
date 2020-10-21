@@ -15,6 +15,7 @@
     width: 31px;
 }
 
+/* Note: This causes the table to expand past page */
 .tdBox {
     display: inline-block; 
     width: 26px;
@@ -23,7 +24,7 @@
     border: 4px double white;
     background-color:#ddd;
     opacity: 0.4;
-}
+} 
 
 .spanBox {
     display: inline-block; 
