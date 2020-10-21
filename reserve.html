@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Seat Reservation</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu" crossorigin="anonymous">
+</head>
+<body>
+    <div class="container">
+        <h3>Choose your preferred service and seat</h3>
+        <div class="row">
+            <div class="col-md-6">
+                <form id="#">
+                    <div class="form-group">
+                        <label for="name">Full Names:</label>
+                        <input type="email" class="form-control" id="email" placeholder="Please enter your full names">
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email Address:</label>
+                        <input type="email" class="form-control" id="email" placeholder="johndoe@gmail.com">
+                    </div>
+                    <div class="form-group">
+                        <label for="service"></label>Select Service:</label>
+                        <select class="form-control" id="size">
+                            <option value="0">Choose an option</option>
+                            <option value="1">8 a.m - 10 a.m</option>
+                            <option value="2">10:30 a.m - 12:30 a.m</option>
+                            <option value="3">1 am - 3 p.m</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="quantity">Seat number</label>
+                        <input value = "" type="number" class="form-control" id="number" min="1" max= "100" placeholder="Select or input seat number">
+                    </div>
+                </form>
+            </div>
+        </div>    
+    </div>   
+</body>
+</html>
