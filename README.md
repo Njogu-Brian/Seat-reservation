@@ -3,7 +3,7 @@
 [Check it out](https://github.com/Njogu-Brian/Seat-reservation.git)
 #### Authors
 Edu nush
-Brian Njongu
+Brian Njogu
 Ariso Okanga
 Joseph Ndegwa
 victor Lominyo
