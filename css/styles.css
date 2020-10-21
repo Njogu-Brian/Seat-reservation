@@ -1,4 +1,22 @@
 body {
+<<<<<<< HEAD
     padding-top: 56px;
   }
   
+=======
+    background-color: #000000 ;
+    background-image: url("https://media.gettyimages.com/photos/mature-woman-sitting-in-church-picture-id1182738428?s=2048x2048");
+
+}
+
+h1{
+    color: chartreuse;
+
+}
+
+tr{
+    color: hsl(170, 90%, 49%);
+    text-size-adjust: 79 ;
+}
+
+>>>>>>> 09ae08fe05337ba2f63e1bebfe4c523fd6ad1806
