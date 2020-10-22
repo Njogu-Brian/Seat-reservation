@@ -20,19 +20,19 @@ $(document).ready(function () {
         }
     }
 
-    $('#Seats').focusout(function () {
-        var BookedSeats = $('#Seats').val();
+    $('#mce-MMERGE5').focusout(function () {
+        var BookedSeats = $('#mce-MMERGE5').val();
         noOfSeats = BookedSeats;
         if (BookedSeats > 50)
         {
             alert('Please select max of 50 seats only');
-            $('#Seats').val('');
+            $('#mce-MMERGE5').val('');
             $('.table tbody tr td span').css({opacity: 0.4});
         }
     });
     var redCount = 0;
     $('#Selectseat').unbind('click').bind('click', function () {
-        if ($('#Seats').val() != '' || $('#Seats').val() != 0) {
+        if ($('#mce-MMERGE5').val() != '' || $('#mce-MMERGE5').val() != 0) {
             var table = document.getElementById("seatTable");
             for (var i = 1, row; row = table.rows[i]; i++) {
                 for (var j = 1, col; col = row.cells[j]; j++) {
@@ -96,13 +96,13 @@ $(document).ready(function () {
     $('#ConfirmSeat').unbind('click').bind('click', function () {
         var table = document.getElementById("seatTable");
         var idList = '';
-        var UserName = $('#Name').val();
+        var UserName = $('#mce-FNAME').val();
         if (UserName == '')
         {
             alert('Please enter the name to confirm the seats');
             return;
         }
-        if ($('#Seats').val() == '' || $('#Seats').val() == 0)
+        if ($('#mce-MMERGE5').val() == '' || $('#mce-MMERGE5').val() == 0)
         {
             alert('Please enter number of seats to confirm');
             return;
@@ -152,10 +152,10 @@ $(document).ready(function () {
             td.innerHTML = idList;
             document.getElementById('id_' + k).appendChild(td);
             k++;
-            clickCounter = 0;
+            clickCounter = 0;s
             UserCount = 0;
-            $('#Name').val('');
-            $('#Seats').val('');
+            $('#mce-FNAME').val('');
+            $('#mce-MMERGE5').val('');
             $('.table tbody tr td').unbind('click');
             $('.table tbody tr td span').css({opacity: 0.4});
         }
