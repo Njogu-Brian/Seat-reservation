@@ -1,6 +1,9 @@
 body {
     background-color: #000000 ;
     background-image: url("https://media.gettyimages.com/photos/mature-woman-sitting-in-church-picture-id1182738428?s=2048x2048");
+    box-shadow:inset 0 0 0 2000px rgba(0, 0, 0, 0.3);
+    background-repeat: no-repeat;
+    background-size: cover;
 
 }
 

@@ -1,8 +1,14 @@
+body {
+    color: #ffffff;
+}
+
 .altar {
     padding: 6px;
     margin-top: 30px;
     margin-bottom: 28px;
     text-align: center;
+    color: whitesmoke;
+    font-weight: bold;
 }
 
 .table>.fixed-column {
@@ -58,6 +64,8 @@
 
 .resultTable td:nth-child(3){
     max-width:100%;
-    word-break: break-all;
+    word-break: break-a
+.mc-field-group , h2 , .indicates-required{
+    color:whitesmoke;
 }
 
