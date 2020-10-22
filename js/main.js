@@ -152,12 +152,19 @@ $(document).ready(function () {
             td.innerHTML = idList;
             document.getElementById('id_' + k).appendChild(td);
             k++;
-            clickCounter = 0;s
+            clickCounter = 0;
             UserCount = 0;
-            $('#mce-FNAME').val('');
-            $('#mce-MMERGE5').val('');
             $('.table tbody tr td').unbind('click');
             $('.table tbody tr td span').css({opacity: 0.4});
+
+            // set the reserved input to reserved seats
+            $('#mce-MMERGE2').val(idList);
+
+            // Originally clears fields after clear is pressed 
+            // but now, clear when subscribe is pressed
+            // $('#mce-FNAME').val('');
+            // $('#mce-MMERGE5').val('');
+            
         }
     });
 
