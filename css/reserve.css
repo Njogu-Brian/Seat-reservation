@@ -66,3 +66,9 @@
 .mc-field-group , h2 , .indicates-required{
     color:whitesmoke;
 }
+
+#mc-embedded-subscribe {
+    position: absolute;
+    top: 415px;
+    left: 85px;
+}
