@@ -162,3 +162,9 @@ $(document).ready(function () {
     });
 
 });
+
+function sendMail()
+{
+   var mailBody=document.getElementById('mailBody').innerHTML;
+   window.location="mailto:kariukindegwa98@gmail.com?subject=hii&body="+mailBody;
+}

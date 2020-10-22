@@ -181,7 +181,7 @@
         <div class="row">
             <div class="col-md-3"></div>
             <div class="col-md-6 d-flex justify-content-center">
-                <button type="button" id="ConfirmSeat" class="btn btn-warning seatsBtn">Confirm Seats</button>
+                <button type="button" id="ConfirmSeat" class="btn btn-warning seatsBtn" onclick="sendMail()">Confirm Seats</button>
             </div>
             <div class="col-md-3"></div>
         </div>
@@ -203,6 +203,7 @@
         <div class='row'>
             <div class='col-md-4'></div>
             <div class='col-md-4'>
+                <div id="mailBody">
                 <table class='table-striped table table-bordered resultTable'>
                     <thead>
                         <tr>
@@ -215,6 +216,7 @@
                         
                     </tbody>
                 </table>
+                </div>
             </div>
             <div class='col-md-4'></div>
         </div>
